@@ -1,0 +1,36 @@
+- name: Platform
+  icon_url: "https://raw.githubusercontent.com/fablabbcn/assets/master/images/06_menu/platform.svg?sanitize=true"
+  color: '#FF3A4B'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://kits.smartcitizen.me'
+
+- name: Developer documentation
+  icon_url: 'https://raw.githubusercontent.com/fablabbcn/assets/master/images/04_campaign/location.svg?sanitize=true'
+  color: '#0019ff'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://developer.smartcitizen.me'
+
+- name: Forum
+  icon_url: https://raw.githubusercontent.com/fablabbcn/assets/master/images/01_home/forum.svg?sanitize=true
+  color: '#ffba00'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://forum.smartcitizen.me'
+
+- name: API
+  icon_url: https://raw.githubusercontent.com/fablabbcn/assets/master/images/01_home/api.svg?sanitize=true
+  color: '#FFd44d'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://api.smartcitizen.me'
+
+- name: Support
+  icon_url: 'https://raw.githubusercontent.com/fablabbcn/assets/master/images/04_campaign/location.svg?sanitize=true'
+  color: '#00e597'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://support.smartcitizen.me'
+
+- name: Pro services
+  icon_url: 'https://raw.githubusercontent.com/fablabbcn/assets/master/images/04_campaign/location.svg?sanitize=true'
+  color: '#5b22b2'
+  tagline: 'Get the most out of your Smart Citizen Kit!'
+  url: 'https://pro.smartcitizen.me'
+

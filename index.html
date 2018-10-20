@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container">
+  <div class="row py-4">
+
+    {% for site in site.data.sites %}
+      <div class="col-6 col-md-4 col-xl-3 mb-5">
+        <div class="card text-center" style="color:{{site.color}}">
+          <a href="{{site.url}}" target="_blank">
+            <div class="card-body">
+              <img class="w-25 mx-auto" src="{{site.icon_url}}" alt="" />
+              <h4 class="text-uppercase">{{site.name}}</h4>
+              <p>{{site.tagline}}</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+</div>
+
