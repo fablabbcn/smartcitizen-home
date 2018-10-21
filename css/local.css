@@ -24,3 +24,16 @@ h4{
   text-transform: uppercase;
 }
 
+.svg-platform{fill:#FF3A4B;}
+.svg-developer{fill:#55C4F5;}
+.svg-forum{fill:#ffc100;}
+.svg-api{fill:#FF8600;}
+.svg-support{fill:#8CC252;}
+.svg-services{fill:#681DBD;}
+
+.color-platform{color:#FF3A4B;}
+.color-developer{color:#55C4F5;}
+.color-forum{color:#ffc100;}
+.color-api{color:#FF8600;}
+.color-support{color:#8CC252;}
+.color-services{color:#681DBD;}
