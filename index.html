@@ -2,7 +2,11 @@
 layout: default
 ---
 <div class="container">
-  <div class="row py-4">
+  <div class="row">
+
+    <div class="col-12 text-center py-5">
+      <img class="text-white" src="https://fablabbcn.github.io/assets/images/smartcitizen_logo.svg" style="height:50px" alt="SCK logo">
+    </div>
 
     {% for site in site.data.sites %}
     <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
@@ -10,8 +14,12 @@ layout: default
         <a href="{{site.url}}" target="_blank">
           <div class="card-body">
             <div class="w-50 mx-auto">{{site.icon}}</div>
-            <h4 class="text-uppercase">{{site.name}}</h4>
-            <p>{{site.tagline}}</p>
+            <div class="sc-title d-flex align-items-center justify-content-center">
+              <h4 class="text-uppercase">{{site.name}}</h4>
+            </div>
+            <div class="sc-text d-flex align-items-center justify-content-center">
+              <p>{{site.tagline}}</p>
+            </div>
           </div>
         </a>
       </div>
@@ -19,5 +27,11 @@ layout: default
     {% endfor %}
 
   </div>
-</div>
 
+  <div class="row my-5">
+    <div class="col-12">
+
+    </div>
+  </div>
+
+</div>
