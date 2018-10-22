@@ -83,7 +83,8 @@
 - name: Support
   color: 'color-support'
   tagline: 'Get professional support'
-  url: 'https://support.smartcitizen.me'
+  #url: 'https://support.smartcitizen.me'
+  url: 'https://smartcitizen.me'
   icon: |
     <?xml version="1.0" encoding="utf-8"?>
     <svg version="1.0" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -103,5 +104,6 @@
 - name: Pro services
   color: color-services
   tagline: 'See our professional services'
-  url: 'https://pro.smartcitizen.me'
+  url: 'https://smartcitizen.me'
+  #url: 'https://pro.smartcitizen.me'
 
