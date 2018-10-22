@@ -20,7 +20,7 @@
 
 - name: Developer documentation
   color: color-developer
-  tagline: 'Get the most out of your Smart Citizen Kit'
+  tagline: 'Get the most out of your Smart Citizen Kit.'
   url: 'https://developer.smartcitizen.me'
   icon: |
     <?xml version="1.0" encoding="utf-8"?>
