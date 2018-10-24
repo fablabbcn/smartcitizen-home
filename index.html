@@ -31,9 +31,24 @@ layout: default
   </div>
 
   <div class="row my-5">
-    <div class="col-12">
-
+    <div class="col-12 text-center">
+      <h4>Other</h4>
     </div>
+    {% for item in site.data.community %}
+    <div class="col-md-6 col-lg-4 col-xl-3 mb-5">
+      <div class="card text-center {{item.color}}">
+        <a href="{{item.url}}" target="_blank">
+          <div class="w-50 mx-auto">{{item.icon}}</div>
+          <div class="sc-title d-flex align-items-center justify-content-center">
+            <h4 class="text-uppercase">{{item.name}}</h4>
+          </div>
+          <div class="sc-text d-flex align-items-center justify-content-center">
+            <p>{{item.tagline}}</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
 </div>
